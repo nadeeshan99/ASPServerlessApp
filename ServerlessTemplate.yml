@@ -5,7 +5,7 @@ Resources:
   AspNetCoreLambdaFunction:
     Type: 'AWS::Serverless::Function'
     Properties:
-      Handler: AWSServerlessApp::AWSServerlessApp.LambdaEntryPoint::FunctionHandlerAsync
+      Handler: ASPServerlessApp::ASPServerlessApp.LambdaEntryPoint::FunctionHandlerAsync
       Runtime: dotnetcore3.1
       CodeUri: 's3://severless-app-demo/ServerlessApp.zip'
       MemorySize: 256
