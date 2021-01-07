@@ -7,7 +7,7 @@ Resources:
     Properties:
       Handler: ASPServerlessApp::ASPServerlessApp.LambdaEntryPoint::FunctionHandlerAsync
       Runtime: dotnetcore3.1
-      CodeUri: 's3://severless-app-demo/ServerlessApp.zip'
+      CodeUri: 's3://severless-app-demo/ASPServerlessApp.zip'
       MemorySize: 256
       Timeout: 30        
       Events:
