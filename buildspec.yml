@@ -7,9 +7,10 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - dotnet publish -c release -o ./build_output ASPServerlessApp/ASPServerlessApp.csproj
+      - dotnet publish -c release
 artifacts:
   files:
-    - ASPServerlessApp/build_output/**/*
+    - /**/*
     - scripts/**/*
     - appspec.yml
+    - ServerlessTemplate.yml
