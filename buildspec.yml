@@ -10,7 +10,7 @@ phases:
       - dotnet publish -c release -o ./build_output ASPServerlessApp/ASPServerlessApp.csproj
 artifacts:
   files:
-    - /**/*
+    - ASPServerlessApp/build_output/**/*
     - scripts/**/*
     - appspec.yml
     - ServerlessTemplate.yml
